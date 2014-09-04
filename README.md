@@ -31,7 +31,7 @@ Include the ImpalaConnection JAR file provide in eclipse by following this tutor
 [http://www.wikihow.com/Add-JARs-to-Project-Build-Paths-in-Eclipse-%28Java%29]
 
 ## Example of Java Class
-Example from the very nice github 
+Example from the very nice github [https://github.com/onefoursix/Cloudera-Impala-JDBC-Example]
 ```java
 import java.sql.Connection;
 import java.sql.DriverManager;
