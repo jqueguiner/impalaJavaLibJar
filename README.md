@@ -17,6 +17,7 @@ the source contains the following packages needed to connect Java Web App to Imp
 * libthrift-0.9.2.cloudera.2.jar
 * log4j-1.2.16.jar
 * slf4j-api-1.7.5.jar
+* slf4j-log4j12-1.7.5.jar
 * httpcore-4.1.3.jar
 * httpclient-4.2.5.jar
 * log4j.properties
