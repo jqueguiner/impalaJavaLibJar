@@ -7,31 +7,32 @@ jar file for Java connection to Impala no Maven needed
 
 the source contains the following packages needed to connect Java Web App to Impala Client:
 
-*commons-logging-1.1.3.jar
-*hadoop-common.jar
-*hive-common.jar
-*hive-jdbc.jar
-*hive-metastore.jar
-*hive-service.jar
-*libfb303-0.9.0.jar
-*libthrift-0.9.2.cloudera.2.jar
-*log4j-1.2.16.jar
-*slf4j-api-1.7.5.jar
-*httpcore-4.1.3.jar
-*httpclient-4.2.5.jar
-*log4j.properties
+* commons-logging-1.1.3.jar
+* hadoop-common.jar
+* hive-common.jar
+* hive-jdbc.jar
+* hive-metastore.jar
+* hive-service.jar
+* libfb303-0.9.0.jar
+* libthrift-0.9.2.cloudera.2.jar
+* log4j-1.2.16.jar
+* slf4j-api-1.7.5.jar
+* httpcore-4.1.3.jar
+* httpclient-4.2.5.jar
+* log4j.properties
 
 ## Original Instruction on Impala
 
 Original Instructions can be found here:
-[http://www.cloudera.com/content/cloudera-content/cloudera-docs/Impala/latest/Installing-and-Using-Impala/ciiu_impala_jdbc.html]
+http://www.cloudera.com/content/cloudera-content/cloudera-docs/Impala/latest/Installing-and-Using-Impala/ciiu_impala_jdbc.html
 
 ## Usage in Eclipse
 Include the ImpalaConnection JAR file provide in eclipse by following this tutorial:
-[http://www.wikihow.com/Add-JARs-to-Project-Build-Paths-in-Eclipse-%28Java%29]
+http://www.wikihow.com/Add-JARs-to-Project-Build-Paths-in-Eclipse-%28Java%29
 
 ## Example of Java Class
-Example from the very nice github [https://github.com/onefoursix/Cloudera-Impala-JDBC-Example]
+Example from the very nice github https://github.com/onefoursix/Cloudera-Impala-JDBC-Example
+
 ```java
 import java.sql.Connection;
 import java.sql.DriverManager;
